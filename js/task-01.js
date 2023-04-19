@@ -9,10 +9,10 @@ console.log(`Number of categories: ${category.children.length}`)
 
     items.forEach(item => {
         
-        const itemCl = item.querySelectorAll('li')
+        const items = item.querySelectorAll('li')
 
         console.log(`Category: ${item.firstElementChild.textContent}`);
-       console.log(`Elements: ${itemCl.length}` );
+       console.log(`Elements: ${items.length}` );
     })
 }
 

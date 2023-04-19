@@ -21,5 +21,6 @@ function handleSubmit(event){
     
 return console.log(user);
 
-    // return console.log(`User Email: ${user.email} , User Password: ${user.password}`)
+//    Version2 
+// return console.log(`User Email: ${user.email} , User Password: ${user.password}`)
 }
