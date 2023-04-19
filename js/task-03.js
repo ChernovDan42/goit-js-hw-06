@@ -20,8 +20,5 @@ const makeImageGallery = images.map(img =>
   `<li class='img-item'><img class='img-task-03' src='${img.url}' alt='${img.alt}'></li>`).join('');
 
 
-    console.log(makeImageGallery);
-
-
 galleryRef.insertAdjacentHTML('afterbegin', makeImageGallery);
 
