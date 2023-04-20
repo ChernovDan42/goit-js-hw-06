@@ -34,12 +34,10 @@ createBtnRef.addEventListener('click', () => {
   createBoxes(inputRef.value)
 } )
 
+
 function destroyBoxes() {
   boxesRef.innerHTML = '';
 }
 
 
-destroyBtnRef.addEventListener('click', () => {
-  destroyBoxes()
-}
-)
+destroyBtnRef.addEventListener('click', destroyBoxes)
